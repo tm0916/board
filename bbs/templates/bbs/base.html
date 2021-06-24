@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }}</title>
+</head>
+<body>
+<script>
+ var counter = 0;
+ 
+ function reload() {
+  window.location.reload();
+ }
+  
+ setInterval(reload, 2000);
+
+</script>  
+{% block content %}
+{% endblock %}
+</body>
+</html>
